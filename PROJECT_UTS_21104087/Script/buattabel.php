@@ -3,7 +3,7 @@
     $sql = "CREATE TABLE canang(
         NAMA Varchar(50) PRIMARY KEY, 
         JENIS_CANANG Varchar(20), 
-        HARGA INT(10), 
+        HARGA FLOAT(10), 
         ALAMAT Varchar(20)
     );";
     $hsl = mysqli_query($cnn, $sql);
